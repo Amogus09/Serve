@@ -88,7 +88,7 @@ if __name__ == '__main__':
             mythread.start()
             time.sleep(0.1)
 
-if __name__ == '__main__':
+elif __name__ == '__main__':
     try:
         for x in range(102489):
             mythread = Wz()
